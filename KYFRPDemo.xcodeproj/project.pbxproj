@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4D6D5766D1777FC5F89B62B /* libPods-KYFRPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FE30E5B95AA394A0635CFC /* libPods-KYFRPDemo.a */; };
+		CF4F07F01C6F87B800A17020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F07EF1C6F87B800A17020 /* main.m */; };
+		CF4F07F31C6F87B800A17020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F07F21C6F87B800A17020 /* AppDelegate.m */; };
+		CF4F07FC1C6F87B800A17020 /* KYFRPDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF4F07FA1C6F87B800A17020 /* KYFRPDemo.xcdatamodeld */; };
+		CF4F07FE1C6F87B800A17020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4F07FD1C6F87B800A17020 /* Assets.xcassets */; };
+		CF4F08011C6F87B800A17020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4F07FF1C6F87B800A17020 /* LaunchScreen.storyboard */; };
+		CF9081461C701870005E90DB /* FRPPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9081451C701870005E90DB /* FRPPhotoModel.m */; };
+		CF9081491C701A35005E90DB /* FRPPhotoImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9081481C701A35005E90DB /* FRPPhotoImporter.m */; };
+		CF90814C1C702D7B005E90DB /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF90814B1C702D7B005E90DB /* FRPCell.m */; };
+		CF90814F1C703A57005E90DB /* FRPFullSizePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF90814E1C703A57005E90DB /* FRPFullSizePhotoViewController.m */; };
+		CF9081521C7045A0005E90DB /* FRPPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9081511C7045A0005E90DB /* FRPPhotoViewController.m */; };
+		CFC0846F1C6F92740035CEAD /* FRPGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC0846E1C6F92740035CEAD /* FRPGalleryViewController.m */; };
+		CFC084721C6F928B0035CEAD /* FRPGalleryFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC084711C6F928B0035CEAD /* FRPGalleryFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94FE30E5B95AA394A0635CFC /* libPods-KYFRPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYFRPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99ED468BEBF6930EE53305E /* Pods-KYFRPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYFRPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYFRPDemo/Pods-KYFRPDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CF4F07EB1C6F87B800A17020 /* KYFRPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYFRPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4F07EF1C6F87B800A17020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF4F07F11C6F87B800A17020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF4F07F21C6F87B800A17020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF4F07FB1C6F87B800A17020 /* KYFRPDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KYFRPDemo.xcdatamodel; sourceTree = "<group>"; };
+		CF4F07FD1C6F87B800A17020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4F08001C6F87B800A17020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF4F08021C6F87B800A17020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9081441C701870005E90DB /* FRPPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoModel.h; sourceTree = "<group>"; };
+		CF9081451C701870005E90DB /* FRPPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoModel.m; sourceTree = "<group>"; };
+		CF9081471C701A35005E90DB /* FRPPhotoImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoImporter.h; sourceTree = "<group>"; };
+		CF9081481C701A35005E90DB /* FRPPhotoImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoImporter.m; sourceTree = "<group>"; };
+		CF90814A1C702D7B005E90DB /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPCell.h; sourceTree = "<group>"; };
+		CF90814B1C702D7B005E90DB /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPCell.m; sourceTree = "<group>"; };
+		CF90814D1C703A57005E90DB /* FRPFullSizePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPFullSizePhotoViewController.h; sourceTree = "<group>"; };
+		CF90814E1C703A57005E90DB /* FRPFullSizePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPFullSizePhotoViewController.m; sourceTree = "<group>"; };
+		CF9081501C7045A0005E90DB /* FRPPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPPhotoViewController.h; sourceTree = "<group>"; };
+		CF9081511C7045A0005E90DB /* FRPPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPPhotoViewController.m; sourceTree = "<group>"; };
+		CFC0846D1C6F92740035CEAD /* FRPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryViewController.h; sourceTree = "<group>"; };
+		CFC0846E1C6F92740035CEAD /* FRPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryViewController.m; sourceTree = "<group>"; };
+		CFC084701C6F928B0035CEAD /* FRPGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPGalleryFlowLayout.h; sourceTree = "<group>"; };
+		CFC084711C6F928B0035CEAD /* FRPGalleryFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPGalleryFlowLayout.m; sourceTree = "<group>"; };
+		CFC084731C6F93FD0035CEAD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DA4CF29E18EDF5773B1272C8 /* Pods-KYFRPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYFRPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYFRPDemo/Pods-KYFRPDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4F07E81C6F87B800A17020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D6D5766D1777FC5F89B62B /* libPods-KYFRPDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C7263DB8199798199A951F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C99ED468BEBF6930EE53305E /* Pods-KYFRPDemo.debug.xcconfig */,
+				DA4CF29E18EDF5773B1272C8 /* Pods-KYFRPDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF4F07E21C6F87B800A17020 = {
+			isa = PBXGroup;
+			children = (
+				CF4F07ED1C6F87B800A17020 /* KYFRPDemo */,
+				CF4F07EC1C6F87B800A17020 /* Products */,
+				5C7263DB8199798199A951F7 /* Pods */,
+				F2B6334099081CC5E7CA5BC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4F07EC1C6F87B800A17020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F07EB1C6F87B800A17020 /* KYFRPDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4F07ED1C6F87B800A17020 /* KYFRPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F07F11C6F87B800A17020 /* AppDelegate.h */,
+				CF4F07F21C6F87B800A17020 /* AppDelegate.m */,
+				CFC0846D1C6F92740035CEAD /* FRPGalleryViewController.h */,
+				CFC0846E1C6F92740035CEAD /* FRPGalleryViewController.m */,
+				CF90814D1C703A57005E90DB /* FRPFullSizePhotoViewController.h */,
+				CF90814E1C703A57005E90DB /* FRPFullSizePhotoViewController.m */,
+				CF9081501C7045A0005E90DB /* FRPPhotoViewController.h */,
+				CF9081511C7045A0005E90DB /* FRPPhotoViewController.m */,
+				CFC084701C6F928B0035CEAD /* FRPGalleryFlowLayout.h */,
+				CFC084711C6F928B0035CEAD /* FRPGalleryFlowLayout.m */,
+				CF9081441C701870005E90DB /* FRPPhotoModel.h */,
+				CF9081451C701870005E90DB /* FRPPhotoModel.m */,
+				CF9081471C701A35005E90DB /* FRPPhotoImporter.h */,
+				CF9081481C701A35005E90DB /* FRPPhotoImporter.m */,
+				CF90814A1C702D7B005E90DB /* FRPCell.h */,
+				CF90814B1C702D7B005E90DB /* FRPCell.m */,
+				CF4F07FD1C6F87B800A17020 /* Assets.xcassets */,
+				CF4F07FF1C6F87B800A17020 /* LaunchScreen.storyboard */,
+				CF4F08021C6F87B800A17020 /* Info.plist */,
+				CF4F07FA1C6F87B800A17020 /* KYFRPDemo.xcdatamodeld */,
+				CF4F07EE1C6F87B800A17020 /* Supporting Files */,
+			);
+			path = KYFRPDemo;
+			sourceTree = "<group>";
+		};
+		CF4F07EE1C6F87B800A17020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF4F07EF1C6F87B800A17020 /* main.m */,
+				CFC084731C6F93FD0035CEAD /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2B6334099081CC5E7CA5BC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FE30E5B95AA394A0635CFC /* libPods-KYFRPDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4F07EA1C6F87B800A17020 /* KYFRPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4F08051C6F87B800A17020 /* Build configuration list for PBXNativeTarget "KYFRPDemo" */;
+			buildPhases = (
+				C42018B16DEE3F111C37E19D /* Check Pods Manifest.lock */,
+				CF4F07E71C6F87B800A17020 /* Sources */,
+				CF4F07E81C6F87B800A17020 /* Frameworks */,
+				CF4F07E91C6F87B800A17020 /* Resources */,
+				8D8F0D689BE711586EA6F4BB /* Embed Pods Frameworks */,
+				C0A15612012AB9EB8269BD9B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYFRPDemo;
+			productName = KYFRPDemo;
+			productReference = CF4F07EB1C6F87B800A17020 /* KYFRPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4F07E31C6F87B800A17020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KangYang;
+				TargetAttributes = {
+					CF4F07EA1C6F87B800A17020 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CF4F07E61C6F87B800A17020 /* Build configuration list for PBXProject "KYFRPDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4F07E21C6F87B800A17020;
+			productRefGroup = CF4F07EC1C6F87B800A17020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4F07EA1C6F87B800A17020 /* KYFRPDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4F07E91C6F87B800A17020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4F08011C6F87B800A17020 /* LaunchScreen.storyboard in Resources */,
+				CF4F07FE1C6F87B800A17020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D8F0D689BE711586EA6F4BB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYFRPDemo/Pods-KYFRPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A15612012AB9EB8269BD9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYFRPDemo/Pods-KYFRPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42018B16DEE3F111C37E19D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4F07E71C6F87B800A17020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9081491C701A35005E90DB /* FRPPhotoImporter.m in Sources */,
+				CFC0846F1C6F92740035CEAD /* FRPGalleryViewController.m in Sources */,
+				CF9081461C701870005E90DB /* FRPPhotoModel.m in Sources */,
+				CFC084721C6F928B0035CEAD /* FRPGalleryFlowLayout.m in Sources */,
+				CF90814C1C702D7B005E90DB /* FRPCell.m in Sources */,
+				CF4F07F31C6F87B800A17020 /* AppDelegate.m in Sources */,
+				CF9081521C7045A0005E90DB /* FRPPhotoViewController.m in Sources */,
+				CF4F07F01C6F87B800A17020 /* main.m in Sources */,
+				CF90814F1C703A57005E90DB /* FRPFullSizePhotoViewController.m in Sources */,
+				CF4F07FC1C6F87B800A17020 /* KYFRPDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF4F07FF1C6F87B800A17020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4F08001C6F87B800A17020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF4F08031C6F87B800A17020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = KYFRPDemo/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF4F08041C6F87B800A17020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = KYFRPDemo/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4F08061C6F87B800A17020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99ED468BEBF6930EE53305E /* Pods-KYFRPDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYFRPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYFRPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF4F08071C6F87B800A17020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4CF29E18EDF5773B1272C8 /* Pods-KYFRPDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYFRPDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangyang.KYFRPDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4F07E61C6F87B800A17020 /* Build configuration list for PBXProject "KYFRPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4F08031C6F87B800A17020 /* Debug */,
+				CF4F08041C6F87B800A17020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4F08051C6F87B800A17020 /* Build configuration list for PBXNativeTarget "KYFRPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4F08061C6F87B800A17020 /* Debug */,
+				CF4F08071C6F87B800A17020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF4F07FA1C6F87B800A17020 /* KYFRPDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF4F07FB1C6F87B800A17020 /* KYFRPDemo.xcdatamodel */,
+			);
+			currentVersion = CF4F07FB1C6F87B800A17020 /* KYFRPDemo.xcdatamodel */;
+			path = KYFRPDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF4F07E31C6F87B800A17020 /* Project object */;
+}
